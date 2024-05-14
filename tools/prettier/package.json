@@ -1,0 +1,33 @@
+{
+  "name": "@evgen4ikk/prettier",
+  "description": "prettier configs",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "prettier"
+  ],
+  "author": {
+    "name": "Evgen4ikk",
+    "url": "https://github.com/Evgen4ikk"
+  },
+  "homepage": "https://github.com/Evgen4ikk/core",
+  "repository": {
+    "url": "https://github.com/Evgen4ikk/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\""
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}

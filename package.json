@@ -1,0 +1,25 @@
+{
+	"name": "evgen4ikk-core",
+	"version": "1.0.0",
+	"keywords": [
+		"prettier",
+		"eslint"
+	],
+	"author": {
+		"name": "Evgen4ikk",
+		"url": "https://github.com/Evgen4ikk"
+	},
+	"homepage": "https://github.com/Evgen4ikk/core",
+	"repository": {
+		"url": "https://github.com/Evgen4ikk/core"
+	},
+	"workspaces": [
+    "tools/*"
+  ],
+	"scripts": {
+		"test": "run format"
+	},
+	"devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
